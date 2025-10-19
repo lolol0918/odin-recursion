@@ -1,3 +1,20 @@
 function fibonnaci(n) {
-    return n < 2 ? n : fibonnaci(n - 1) + fibonnaci(n - 2);
+    let list = [];
+    for (let i = 0; i < n; i++) {
+        if (i < 2) {
+            list[i] = i;
+        } else {
+            list[i] = list[i - 1] + list[i - 2];
+        }
+    }
+
+    return list;
+}
+
+function fibonnaciRecur(n, list=[0, 1]) {
+    if (list.length >= n) return list.slice(0, n);
+
+    list.push(list[list.length - 1] + list[list.length - 2]);
+
+    return fibonnaciRecur(n, list);
 }
