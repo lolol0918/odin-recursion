@@ -12,6 +12,7 @@ function fibonnaci(n) {
 }
 
 function fibonnaciRecur(n, list=[0, 1]) {
+    console.log("This was printed recursively");
     if (list.length >= n) return list.slice(0, n);
 
     list.push(list[list.length - 1] + list[list.length - 2]);
