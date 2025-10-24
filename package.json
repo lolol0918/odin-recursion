@@ -1,0 +1,20 @@
+{
+  "name": "odin-recursion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fibonnaci.js",
+  "scripts": {
+    "start": "node fibonacci.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolol0918/odin-recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolol0918/odin-recursion/issues"
+  },
+  "homepage": "https://github.com/lolol0918/odin-recursion#readme"
+}

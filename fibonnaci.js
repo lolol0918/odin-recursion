@@ -19,3 +19,6 @@ function fibonnaciRecur(n, list=[0, 1]) {
 
     return fibonnaciRecur(n, list);
 }
+
+console.log(fibonnaci(10));
+console.log(fibonnaciRecur(10));
